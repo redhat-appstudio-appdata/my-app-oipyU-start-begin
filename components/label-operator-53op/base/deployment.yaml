@@ -23,7 +23,7 @@ spec:
         app.kubernetes.io/instance: label-operator-53op
     spec:
       containers:
-      - image: quay.io/redhat-appstudio/user-workload:oipyU-label-operator-53op
+      - image: quay.io/redhat-appstudio/user-workload@sha256:2e92685a90e24514230a75f3ddbe302278601fcc1e5c2b2cda07a80dba297cd1
         imagePullPolicy: Always
         livenessProbe:
           httpGet:
